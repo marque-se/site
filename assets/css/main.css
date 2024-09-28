@@ -2768,8 +2768,8 @@ button.small,
 
 #about-us .button {
 	width: 100%;
-	background-color: #fdfdfd;
-	color: #474747;
+	background-color: #1DACF7;
+	color: #F1EEEE;
 }
 
 /* About Us */
@@ -2782,7 +2782,14 @@ button.small,
 	font-style: italic;
 	margin-bottom: 1em;
 	text-align: center;
+	color: #13329B;
 	width: 100%;
+}
+
+#services .image-bigger {
+	width: 130%;
+	align-self: center;
+	margin-left: -20%;
 }
 
 #services img {
