@@ -2670,6 +2670,10 @@ button.small,
 	border-radius: 50%;
 }
 
+.no-padding {
+	padding: 0 !important;
+}
+
 /* Header */
 
 #nav {
@@ -2679,13 +2683,15 @@ button.small,
 	background-color: #FDFDFD;
 	position: fixed;
 	z-index: 999;
+	width: 100%;
+	margin: 0;
 	box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
 #nav .row {
 	align-self: flex-end;
 	justify-content: center;
-	margin: 0 !important;
+	padding: 0;
 }
 
 #nav .image {
@@ -2696,7 +2702,6 @@ button.small,
 }
 
 #nav img {
-	border-radius: 2em;
 	width: 40%;
 }
 
