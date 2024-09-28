@@ -2802,6 +2802,27 @@ button.small,
 	align-self: center;
 }
 
+#services .button-row {
+	justify-content: center;
+	padding-top: 30px;
+}
+
+#services .button {
+	border-radius: 5px;
+    border: 0;
+    background-color: #13329B;
+	color: #F1EEEE;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 1.5em;
+    line-height: 2.75em;
+    min-width: 20em;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+}
+
 /* Banner */
 
 #banner {
